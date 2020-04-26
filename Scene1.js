@@ -1,4 +1,5 @@
 class Scene1 extends Phaser.Scene {
+<<<<<<< HEAD
     constructor() {
         super("bootGame");
       }
@@ -14,5 +15,14 @@ class Scene1 extends Phaser.Scene {
     create() {
         this.add.text(20, 20, "Loading game...");
         this.scene.start("playGame");
+=======
+    constructor(){
+        super('bootGame');
+    }
+
+    create(){
+        this.add.text(20,20, "Loading game...");
+        this.scene.start("playGame")
+>>>>>>> master
     }
 }
